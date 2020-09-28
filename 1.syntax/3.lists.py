@@ -74,4 +74,10 @@ b.sort(reverse=True)
 c = [1,2,3]
 c.reverse()
 
+# pop()
+# count()
+# index()
+
 print(c)
+
+
