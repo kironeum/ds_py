@@ -45,7 +45,8 @@ newUsers = {"John", "Kate", "Bob"}
 
 # users2 = users.union(newUsers)   #  - метод update нужен в случае если необходимо сохранить целевое множество
 # короткий аналог union()
-unionUsers = users + newUsers
+unionUsers = users | newUsers
+
 # users.update(newUsers)   #  - метод update изменяет целевое множество 
 
 
@@ -66,3 +67,6 @@ intersectUsers = users & newUsers
 diffUsers = users - newUsers
 
 print(diffUsers)
+
+
+#   ДОМАШКА  :  ПРОСМОТРЕТЬ ДРУГИЕ МЕТОДЫ ДЛЯ МНОЖЕСТВ! 
