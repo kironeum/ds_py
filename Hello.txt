@@ -1,0 +1,4 @@
+hello world
+hello python
+hello appending in file
+привет добавлению записи с инкодингом
