@@ -1,0 +1,23 @@
+header, div.main, footer {
+    border: 2px solid rgb(218, 0, 0);
+}
+
+/*  header */
+
+header{
+    background-color: #c9c3af;
+    height: 100px;  
+}
+
+/* main */
+
+.main {
+    background-color: blanchedalmond;
+    height: 800px;
+}
+
+/* footer */
+footer {
+    background-color: burlywood;
+    height: 100px;
+}
