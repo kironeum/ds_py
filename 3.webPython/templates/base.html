@@ -4,12 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="static/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap" rel="stylesheet"> -->
     <title>Document</title>
 </head>
 <body>
+    <!-- шапка -->
+    <header class="header">
+        <!-- блок навигации -->
+        <div class="header__menu">
+            <div><a href="{{ url_for('index_page') }}">Home</a></div>
+            <div><a href="{{ url_for('product_page') }}">Product</a></div>
+            <div><a href="{{ url_for('contact_page') }}">Contact</a></div>
+        </div>
+    </header>
+
     {% block body%}
 
     {% endblock %}
+
+    <!-- подвал-->
+
+    <footer class="footer">
+        footer
+    </footer>
 
 </body>
 </html>
