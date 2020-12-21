@@ -54,6 +54,33 @@ header{
     font-size: 20px;
 }
 
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 80%;
+}
+
+.content form {
+    border: 2px solid rgb(51, 114, 45);
+    width: 70%;
+    padding: 20px 0px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    position: relative;;
+}
+
+.content label {
+    border: 2px solid rgb(51, 114, 45);
+    display: inline-block;
+    width: 130px;
+    text-align: center;
+}
+
 /* footer */
 footer {
     background-color: rgb(144, 219, 166);
